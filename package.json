@@ -8,9 +8,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "author": "",
+  "author": "PhamNgocThien",
   "license": "ISC",
-    "devDependencies": {
+  "devDependencies": {
     "lite-server": "^2.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pntthathu/bootstrap4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pntthathu/bootstrap4/issues"
+  },
+  "homepage": "https://github.com/pntthathu/bootstrap4#readme"
 }
