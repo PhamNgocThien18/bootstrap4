@@ -37,3 +37,10 @@ body {
 .navbar-dark {
     background-color: #512DA8;
 }
+.navbar-img{
+    max-width: 30%;
+    margin: 0;
+}
+.navbar-brand{
+    margin: 0;
+}
