@@ -9,7 +9,14 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Demo navbar</title>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -21,12 +28,13 @@
         </button>
     </nav>
     <div id="mynav" class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-toggler mr-auto">
             <li class="navbar-item"><i class="fa fa-home"></i><a href="#" class="nav-link">Home</a></li>
             <li class="navbar-item"><a href="#" class="nav-link">Link</a></li>
             <li class="navbar-item"><a href="#" class="nav-link">Action</a></li>
         </ul>
     </div>
+
 
     <ol class="col-12 breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -54,7 +62,9 @@
                     me out</label>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
+            <input type="file" class="form-control-file">Choose File</input>
         </form>
+
     </div>
     <div class="input-group">
         <div class="input-group-prepend">
@@ -63,7 +73,7 @@
         <input type="text" class="form-control">
     </div>
 
-    <div class="table-responsive col-12 col-sm-6">
+    <!-- <div class="table-responsive col-12 col-sm-6">
         <table class="table table-striped table-hover">
             <thead class="thead-dark">
                 <tr>
@@ -92,15 +102,142 @@
                     <td>30</td>
                     <td>40</td>
                 </tr>
-                
-            </tbody>
 
+            </tbody> -->
+    <!-- 
+            <div class="container h-100">
+                <div class="d-flex justify-content-center h-100">
+                    <div class="searchbar">
+                        <input class="search_input" type="text" name="" placeholder="Search...">
+                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="alert alert-warning" role="alert">
+                <strong>Holy guacamole!</strong>You should check in on some of those fields below.
+                <button type="button" class="close" data-dismiss="alert">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-            <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-            <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-            <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-            <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+            <nav>
+                <div class="nav nav-tabs"role="tablist">
+                  <a class="nav-item nav-link active" data-toggle="tab" href="#nav-home" role="tab" aria-selected="true"> Home</
+                  a>
+                  <a class="nav-item nav-link" data-toggle="tab" href="#nav-profile" role="tab" aria-selected="false"> Profile</
+                  a>
+                  <a class="nav-item nav-link" data-toggle="tab" href="#nav-contact" role="tab" aria-selected="false"> Contact</
+                   a>
+                </div>
+              </nav>
+              <div class="tab-content">
+                <div class="tab-pane fade show active"id="nav-home"role="tabpanel">content1</div>
+                <div class="tab-pane fade"id="nav-profile"role="tabpanel">content2</div>
+                <div class="tab-pane fade"id="nav-contact"role="tabpanel">content3</div>
+              </div>
+
+              <nav>
+                <div class="nav nav-tabs"role="tablist">
+                  <a class="nav-item nav-link active" data-toggle="tab" href="#nav-home" role="tab" aria-selected="true"> Home</
+                  a>
+                  <a class="nav-item nav-link" data-toggle="tab" href="#nav-profile" role="tab" aria-selected="false"> Profile</
+                  a>
+                  <a class="nav-item nav-link" data-toggle="tab" href="#nav-contact" role="tab" aria-selected="false"> Contact</
+                   a>
+                </div>
+              </nav>
+              <div class="tab-content">
+                <div class="tab-pane fade show active"id="nav-home"role="tabpanel">...</div>
+                <div class="tab-pane fade"id="nav-profile"role="tabpanel">...</div>
+                <div class="tab-pane fade"id="nav-contact"role="tabpanel">...</div>
+              </div> -->
+    <div>
+        <ul class="nav nav-pills flex-column flex-sm-row">
+            <li class="nav-item flex-fill">
+                <a class="nav-link active flex-fill text-center" href="#"> Active </a>
+            </li>
+            <li class="nav-item flex-fill dropdown">
+                <a class="nav-link flex-fill text-center dropdown-toggle" href="#" data-toggle="dropdown"> Link </a>
+                <div class="dropdown-menu">
+                    <a href="" class="drowdow-item">dropdown1</a>
+                    <a href="" class="drowdow-item">dropdown2</a>
+                    <a href="" class="drowdow-item">dropdown3</a>
+                    <a href="" class="drowdow-item">dropdown4</a>
+                </div>
+            </li>
+            <li class="nav-item flex-fill">
+                <a class="nav-link flex-fill text-center" href="#"> Link </a>
+            </li>
+            <li class="nav-item flex-fill">
+                <a class="nav-link disabled flex-fill text-center" href="#"> Disabled </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="menu-tab">
+        <ul>
+            <li>
+                <a href="#menu1" data-toggle="tab">1</a>
+            </li>
+            <li>
+                <a href="#menu2" data-toggle="tab">2</a>
+            </li>
+            <li>
+                <a href="#menu3" data-toggle="tab" >3</a>
+            </li>
+            <li>
+                <a href="#menu4" data-toggle="tab">4</a>
+            </li>
+            <li>
+                <a href="#menu5" data-toggle="tab">5</a>
+            </li>
+        </ul>
+    </div>
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="menu1" role="tabpanel">content1</div>
+        <div class="tab-pane" id="menu2" role="tabpanel"><p>content2</p></div>
+        <div class="tab-pane" id="menu3" role="tabpanel"><p>content3</p></div>
+        <div class="tab-pane" id="menu4" role="tabpanel"><p>content4</p></div>
+        <div class="tab-pane" id="menu5" role="tabpanel"><p>content5</p></div>
+    </div> 
+
+ 
+    <div> 
+        <a href="#collapse1" data-toggle="collapse" >content0</a>
+        <button data-toggle="collapse" data-target="multicollapse">content1</button>
+        <button data-toggle="collapse" data-target="multicollapse">content2</button>
+        <button data-toggle="collapse" data-target="multicollapse">content3</button>
+        <button data-toggle="collapse" data-target="multicollapse">content4</button>
+    </div>
+    <div class="collapse" id="collapse1">
+        <p>content0</p>
+    </div>
+    <div class="collapse multicollapse" id="collapse1">
+        <p>content1</p>
+    </div>
+    <div class="collapse multicollapse" id="collapse2">
+        <p>content1</p>
+    </div>
+    <div class="collapse  multicollapse" id="collapse1">
+        <a href="#collapse1" data-toggle="collapse" >content0</a>
+    </div>
+
+    <div>
+        <a href="" data-toggle="tooltip" title="this is tittle">tittle</a>
+    </div>
+
+    <div id="target">
+        click hear
+    </div>
+    <div id="other">
+        click hear2
+    </div>
+    <script>
+        $("#target").click(function(){
+            alert("Fuck You");
+        });
+    </script>
 </body>
 
 </html>
