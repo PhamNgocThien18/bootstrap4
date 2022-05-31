@@ -77,3 +77,10 @@ body {
 .reverse-modal-header{
   min-height: 50px;
 }
+.btn-success{
+    border-radius: 0;
+    margin-right: 10px;
+}
+.btn-danger{
+    border-radius: 0;
+}
