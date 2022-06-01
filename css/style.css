@@ -84,3 +84,6 @@ body {
 .btn-danger{
     border-radius: 0;
 }
+.card-body label{
+    color: #0f0f0f;
+}
